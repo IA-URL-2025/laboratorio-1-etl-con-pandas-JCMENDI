@@ -39,8 +39,8 @@ def run_etl():
     df = df.dropna()
 
     # 3. Load: Guardar el resultado final [cite: 53]
-    # Se genera el archivo de salida 
-    df.to_csv('C:\Users\mendi\Documents\GitHub\laboratorio-1-etl-con-pandas-JCMENDI\data', index=False)
+    # Se genera el archivo de salida en  
+    df.to_csv('data/output.csv', index=False)
 
 if __name__ == "__main__":
     run_etl()
