@@ -8,7 +8,7 @@ def run_etl():
     """
     # 1. Extract: Leer el archivo CSV
     try:
-        df = pd.read_csv('C:\Users\mendi\Documents\GitHub\laboratorio-1-etl-con-pandas-JCMENDI\data\citas_clinica.csv')
+        df = pd.read_csv('data/citas_clinica.csv')
     except FileNotFoundError:
         print("Error: El archivo no se econtró")
         return
